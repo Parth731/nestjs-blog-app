@@ -1,3 +1,16 @@
+// import { DataSource } from 'typeorm';
+
+// export default new DataSource({
+//   type: 'postgres',
+//   host: 'localhost',
+//   port: 5432,
+//   username: 'postgres',
+//   password: 'Bootstrap',
+//   database: 'nestjs-blog',
+//   entities: ['**/*.entity.js'],
+//   migrations: ['migrations/*.js'],
+// });
+
 import { DataSource } from 'typeorm';
 
 export default new DataSource({
@@ -5,8 +18,8 @@ export default new DataSource({
   host: 'localhost',
   port: 5432,
   username: 'postgres',
-  password: 'Bootstrap',
-  database: 'nestjs-blog',
+  password: 'root',
+  database: 'nestblogapp',
   entities: ['**/*.entity.js'],
   migrations: ['migrations/*.js'],
 });
