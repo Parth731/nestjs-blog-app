@@ -1,0 +1,5 @@
+DELETE http://localhost:5000/tags/?id=5
+
+
+DELETE http://localhost:5000/tags/soft-delete
+?id=6

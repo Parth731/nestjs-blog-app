@@ -1,0 +1,9 @@
+
+
+POST http://localhost:5000/tags
+Content-Type: application/json
+{
+   "name": "nodejs",
+   "slug":"nodejs",
+   "description":"this is nodejs description" 
+}

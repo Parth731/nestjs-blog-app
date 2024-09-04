@@ -1,0 +1,8 @@
+
+
+GET http://localhost:5000/users/?limit=20&offset=1
+
+# error
+GET http://localhost:5000/users/178
+?limit=10
+&offset=20

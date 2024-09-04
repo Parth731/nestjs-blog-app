@@ -1,0 +1,22 @@
+
+
+POST http://localhost:5000/users
+Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2LCJlbWFpbCI6InBhcnRoZDNAZ21haWwuY29tIiwibmFtZSI6IlBhcnRoIGQzUGF0ZWwiLCJpYXQiOjE3MjUwOTkwNzQsImV4cCI6MTcyNTEwMjY3NCwiYXVkIjoibG9jYWxob3N0OjUwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6NTAwMCJ9.303NCI43BOzs7Y-6sDtIdC-tejtMyYIuA8SisW7PKdA
+{
+    "firstName":"Parth33 ",
+    "lastName":"Patel",
+    "email":"parth33@gmail.com",
+    "password":"Password@123"
+}
+
+
+POST http://localhost:5000/users/create-many
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjE2LCJlbWFpbCI6InBhcnRoZDNAZ21haWwuY29tIiwibmFtZSI6IlBhcnRoIGQzUGF0ZWwiLCJpYXQiOjE3MjUwMjUzMTIsImV4cCI6MTcyNTAyODkxMiwiYXVkIjoibG9jYWxob3N0OjUwMDAiLCJpc3MiOiJsb2NhbGhvc3Q6NTAwMCJ9.jM0-orYkROpmi45stPw7q-dnDz3kh3fvR6QC09kurR0
+{"users": [{
+    "firstName":"Parthd5",
+    "lastName":"Patel",
+    "email":"parthd5@gmail.com",
+    "password":"Password@123"
+}]}

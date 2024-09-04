@@ -1,0 +1,13 @@
+
+{{
+//pre request scripts
+const date = new Date();
+exports.startDate = date.toString();
+exports.endDate = date.toString();
+}}
+
+GET http://localhost:5000/posts
+?startDate={{startDate}}
+&endDate={{endDate}}
+&limit=5
+&page=1
